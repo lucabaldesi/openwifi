@@ -40,7 +40,7 @@ if [ "$ARCH_OPTION" == "64" ]; then
 else
     KDIR=$OPENWIFI_DIR/adi-linux/
     export ARCH=arm
-    export CROSS_COMPILE=arm-linux-gnueabihf-
+    export CROSS_COMPILE=arm-none-eabi-
 fi
 
 SUBMODULE=xilinx_dma

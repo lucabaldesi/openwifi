@@ -37,7 +37,7 @@ if [ "$ARCH_OPTION" == "64" ]; then
 else
     LINUX_KERNEL_SRC_DIR=$OPENWIFI_DIR/adi-linux/
     ARCH="arm"
-    CROSS_COMPILE="arm-linux-gnueabihf-"
+    CROSS_COMPILE="arm-none-eabi-"
 fi
 
 # check if user entered the right path to analog device linux

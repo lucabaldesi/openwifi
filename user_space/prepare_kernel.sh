@@ -40,7 +40,7 @@ else
     LINUX_KERNEL_SRC_DIR_NAME=adi-linux
     LINUX_KERNEL_CONFIG_FILE=$OPENWIFI_DIR/kernel_boot/kernel_config
     ARCH_NAME="arm"
-    CROSS_COMPILE_NAME="arm-linux-gnueabihf-"
+    CROSS_COMPILE_NAME="arm-none-eabi-"
     IMAGE_TYPE=uImage
 fi
 
